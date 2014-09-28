@@ -7,8 +7,9 @@ require_relative '../twitter.rb'
 include Rack::Test::Methods
 	
 	def app
-		Sinatra::Application.new
+		Sinatra::Application
 	end
+
 
 describe "STW2" do
 
