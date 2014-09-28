@@ -21,5 +21,16 @@ describe "STW2" do
 		get "/"
 		assert last_response.body.include?("<title>Contador Twitter</title>"), "El titulo debe ser 'Contador Twitter'"
 	end
+
+	it "existe formulario donde preguntar nombre y cantidad de amigos a contar?" do
+		assert last_response.body.include?("<p><b>Nombre de usuario en Twitter:</b></p>"), "El body debe contener nombre usuario."
+		assert last_response.body.include?("<p><b>¿Cuántos amigos desea ver? </b></p>"), "El body debe contener cuantos amigos."	
+	end
+
+	it "Pie de pagina contiene: © 2014 Sistemas y Tecnologias Web - ULL " do
+		assert_match "<p>© 2014 Sistemas y Tecnologias Web - ULL</p>", last_response.body
+	end
+	
+	
 end
 
