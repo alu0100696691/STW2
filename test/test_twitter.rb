@@ -10,14 +10,16 @@ include Rack::Test::Methods
 		Sinatra::Application
 	end
 
-	def test_index
+describe "STW2" do
+
+	it "carga la pagina index en el servidor?" do
     		get '/'
     		assert last_response.ok?
   	end
 
-	def test_title
+	it "el titulo de la pagina es Contador Twitter?" do
 		get "/"
 		assert last_response.body.include?("<title>Contador Twitter</title>"), "El titulo debe ser 'Contador Twitter'"
 	end
-
+end
 
