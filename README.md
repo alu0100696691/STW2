@@ -1,16 +1,15 @@
-##Práctica/Taller: Contar la Popularidad de Nuestros Amigos en Twitter
+##Práctica: Despliegue en Heroku
 
-**Autora:** Noelia Rodríguez Martín
+**Autores:** Noelia Rodríguez Martín
+			 Jose Antonio Rodríguez Leandro
 
-**Fecha:** 24 Septiembre 2014
+**Fecha:** 29 Septiembre 2014
 
-**Details:** Desarrollamos una aplicación en ruby cuyo propósito es recibir el nombre de un usuario y mostrar sus amigos más populares.
+**Details:** Desplegamos en Heroku la práctica anterior "Aplicación Web con Sinatra: Contar la Popularidad de Nuestros Amigos en Twitter", añadimos pruebas y usamos los issues de Github. 
 
 ###Ejecución
 
-Para ejecutar esta aplicación, una vez descargada nos situamos en el directorio que la contiene y ejecutamos el siguiente 
+Para ejecutar los test de esta aplicación, una vez descargada nos situamos en el directorio que la contiene y ejecutamos el siguiente 
 comando:
-`ruby twitter.rb`
+`rake test`
 
-Luego, como indica en la consola, debemos ir al navegador de internet y escribir en la barra de dirección `localhost:4567`. Una vez hecho esto ya
-podemos visualizar la aplicación en el navegador e interactuar con ella. 
