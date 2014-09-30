@@ -1,7 +1,7 @@
 ##Práctica: Despliegue en Heroku
 
-**Autores:** *Noelia Rodríguez Martín*
-			 *Jose Antonio Rodríguez Leandro*
+**Autores:** Jose Antonio Rodríguez Leandro y Noelia Rodríguez Martín
+			 
 
 **Fecha:** 29 Septiembre 2014
 
