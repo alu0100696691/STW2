@@ -2,6 +2,20 @@ require 'twitter'
 require 'sinatra'
 require './configure'
 
+class CuentaAmigos  #lo usaremos para hacer los test unitarios de la api de twitter
+
+        def usuario_test(cliente, nombre)
+                cliente.user? nombre
+        end
+
+        def amigos_test(cliente, nombre)
+                cliente.user(nombre).friends_count
+        end
+end
+
+
+
+
 get '/' do
   @amigos_usuario = []
   @name = ''
