@@ -25,8 +25,8 @@ describe "STW2" do
 
 	it "existe formulario donde preguntar nombre y cantidad de amigos a contar?" do
 		get '/'
-		assert last_response.body.include?("<p><b>Nombre de usuario en Twitter:</b></p>"), "El body debe contener nombre usuario."
-		assert last_response.body.include?("<p><b>¿Cuántos amigos desea ver? </b></p>"), "El body debe contener cuantos amigos."	
+		assert last_response.body.include?("Nombre de usuario en Twitter:"), "El body debe contener nombre usuario."
+		assert last_response.body.include?("¿Cuántos amigos desea ver?"), "El body debe contener cuantos amigos."	
 	end
 
 	it "Pie de pagina contiene: © 2014 Sistemas y Tecnologias Web - ULL " do
