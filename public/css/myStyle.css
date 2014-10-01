@@ -53,9 +53,9 @@
                         }
 
                         #warning{
-                                background-color: #FFCC66;
+                                /*background-color: #FFCC66;*/
                                 font-size: 1.5em;
-                                color: red;
+                                /*color: red;*/
                                 padding-left: 2em;
                                 padding-right: 2em;
                                 padding-top: 0.9em;
@@ -64,7 +64,7 @@
                         }
 
                         #col{
-                                background-color: #E8E8E8 ;
+                                /*background-color: #E8E8E8 ;*/
                                 text-align: left;
                                 margin-bottom: 1em;
                         }

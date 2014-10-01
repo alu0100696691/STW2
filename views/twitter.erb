@@ -9,19 +9,19 @@
 		
 		<title>Contador Twitter</title>
 
-		<div class="container">
-					<div class="page-header" ALIGN=center>
-					<h1>Popularidad de amigos en Twitter</h1>
-					</div>
-
 	</head>
 	<body>
-	 	
+		<div class="container">
+                                        <div class="page-header" ALIGN=center>
+                                        <h1 class="text-primary">Popularidad de amigos en Twitter</h1>
+                                        </div>
+
 	 	<div id="re">
 		 	<form action="/" method="post">
-		   		<p><b>Nombre de usuario en Twitter: </b></p><input type="text" name="firstname"  value="" autofocus>
-		   		<p><b>¿Cuántos amigos desea ver? </b></p><input type="text" name="n" value="1">
-		   		<input  type="submit" value="Enviar" >
+		   		<p><b>Nombre de usuario en Twitter: </b></p><input type="text" name="firstname"  value="" class="form-control" autofocus>
+		   		<p><b>¿Cuántos amigos desea ver? </b></p><input type="text" name="n" value="1" class="form-control">
+		   		<!--<input  type="submit" value="Enviar" >-->
+				<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
 		 	</form>
 	 	</div>
 	 	
@@ -31,21 +31,21 @@
 
                        <% if @name != ''%>
 				<%if @number>10%>
-					<p id="warning"> Sólo se puede mostrar hasta 10 amigos </p>
+					<p class="bg-danger" > Sólo se puede mostrar hasta 10 amigos </p>
 				<%elsif @amigos_usuario.length <= 0 %>
-					<p id="warning">El usuario no existe o no tiene amigos</p>
+					<p class="bg-danger">El usuario no existe o no tiene amigos</p>
 				<%elsif @amigos_usuario.length < @number %>
-					<p id="warning">El usuario tiene menos de <%= @number%> amigos</p>
+					<p class="bg-danger">El usuario tiene menos de <%= @number%> amigos</p>
 					<ol>
 						<% @amigos_usuario.each do |i| %> 
-							<li id="col"><%= i %><br></li>
+							<li id="col" class="bg-primary"><%= i %><br></li>
 						<% end %>
 					</ol>
 				<%else%>
-					<p>Amigos :</p>
+					<p class="bg-info">Amigos :</p>
 					<ol>
 						<% @amigos_usuario.each do |i| %> 
-							<li id="col"><%= i %><br></li>
+							<li id="col" class="bg-primary"><%= i %><br></li>
 						<% end %>
 					</ol>
 				<%end%>
