@@ -32,8 +32,8 @@ Heroku es una plataforma como servicio de computación en la Nube que soporta di
 
 ###Recursos
 
-`https://github.com/crguezl/number_cruncher`
-`http://nereida.deioc.ull.es/~lpp/perlexamples/node455.html`
-`http://nereida.deioc.ull.es/~lpp/perlexamples/node482.html`
+1. `https://github.com/crguezl/number_cruncher`
+2. `http://nereida.deioc.ull.es/~lpp/perlexamples/node455.html`
+3. `http://nereida.deioc.ull.es/~lpp/perlexamples/node482.html`
 
 
