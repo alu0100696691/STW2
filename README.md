@@ -28,7 +28,7 @@ A continuación, yendo en el navegador a la dirección http://localhost:4567/ po
 
 ####Ejecución en Heroku
 
-Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación. También podemos acceder a la aplicación a través de Heroku desde el enlace `http://cuenta.herokuapp.com/`.
+Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación. También podemos acceder a la aplicación a través de Heroku desde el enlace http://cuenta.herokuapp.com/
 
 ###Recursos
 
