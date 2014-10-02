@@ -18,12 +18,12 @@ En primer lugar, instalaremos las gemas necesarias con el comando:
 ####Ejecución de los tests
 
 Para ejecutar los test de esta aplicación, una vez descargada nos situamos en el directorio que la contiene y ejecutamos el siguiente comando:
-`rake test`
+`rake` o `rake test`
 
 ####Ejecución en local
 
 Para ejecutar la aplicación, también situados en el directorio que la contiene, ejecutar el comando:
-`ruby twitter.rb`
+`ruby twitter.rb` o `rake server`
 
 A continuación, yendo en el navegador a la dirección http://localhost:4567/ podemos hacer uso de la aplicación.
 
@@ -31,11 +31,15 @@ A continuación, yendo en el navegador a la dirección http://localhost:4567/ po
 
 Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación. También podemos acceder a la aplicación a través de Heroku desde el enlace http://cuenta.herokuapp.com/
 
+####Integración continua en Travis
+
+[![Build Status](https://travis-ci.org/alu0100696691/STW2.svg?branch=master)](https://travis-ci.org/alu0100696691/STW2)
+
+
 ###Recursos
 
 1. https://github.com/crguezl/number_cruncher
 2. http://nereida.deioc.ull.es/~lpp/perlexamples/node455.html
 3. http://nereida.deioc.ull.es/~lpp/perlexamples/node482.html
-4. https://travis-ci.org/alu0100696691/STW2
 
 
