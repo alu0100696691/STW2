@@ -31,7 +31,7 @@ A continuación, yendo en el navegador a la dirección http://localhost:4567/ po
 
 Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación. También podemos acceder a la aplicación a través de Heroku desde el enlace http://cuenta.herokuapp.com/
 
-####Integración continua en Travis
+###Integración continua en Travis
 
 [![Build Status](https://travis-ci.org/alu0100696691/STW2.svg?branch=master)](https://travis-ci.org/alu0100696691/STW2)
 
