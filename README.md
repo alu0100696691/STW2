@@ -24,6 +24,7 @@ Para ejecutar los test de esta aplicación, una vez descargada nos situamos en e
 
 Para ejecutar la aplicación, también situados en el directorio que la contiene, ejecutar el comando:
 `ruby twitter.rb`
+
 A continuación, yendo en el navegador a la dirección http://localhost:4567/ podemos hacer uso de la aplicación.
 
 ####Ejecución en Heroku
